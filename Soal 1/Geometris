@@ -1,0 +1,41 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package pertemuan89;
+
+/**
+ *
+ * @author NISWA
+ */
+public class Geometris {
+
+    boolean isi;
+    String warna;
+    
+    public Geometris(){
+        this.warna = "putih";
+        this.isi = false;
+    }
+    
+    public Geometris(String warna, boolean isi){
+        this.warna = warna;
+        this.isi = isi;
+    }
+    
+    public String getWarna() {
+        return warna;
+    }
+
+    public void setWarna(String warna) {
+        this.warna = warna;
+    }
+
+    public boolean isIsi() {
+        return isi;
+    }
+
+    public void setIsi(boolean isi) {
+        this.isi = isi;
+    }
+}
