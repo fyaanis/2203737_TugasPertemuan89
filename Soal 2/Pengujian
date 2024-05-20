@@ -1,0 +1,30 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Soal2;
+
+/**
+ *
+ * @author NISWA
+ */
+public class Pengujian {
+    public static void main(String[] args) {
+        Student student = new Student("Niswa", "Jl. Geger Kalong", "081234567890", "niswa@upi.edu", Student.SENIOR);
+        
+        MyDate hireDateEmployee = new MyDate(2013, 5, 15);
+        Employee employee = new Employee("Gita", "Jl. Setia Budi", "089876543210", "gitata@upi.edu", "Fakultas MIPA", 5000000, hireDateEmployee);
+
+        MyDate hireDateFaculty = new MyDate(2011, 8, 20);
+        Faculty faculty = new Faculty("della", "Jl. Cilimus", "083421568790", "dellaaa@upi.edu", "Fakultas MIPA ", 6000000, hireDateFaculty, "09.00-17.00", "Dosen");
+
+        MyDate hireDateStaff = new MyDate(2021, 3, 10);
+        Staff staff = new Staff("Wiche", "Jl. Cempaka", "089865742315", "wiche@upi.edu", "Kantor Admin", 4500000, hireDateStaff, "Admin");
+
+        System.out.println(student);
+        System.out.println(employee);
+        System.out.println(faculty);
+        System.out.println(staff);
+    }
+}
+
